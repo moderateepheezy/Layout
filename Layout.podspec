@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "10.0"
 
   spec.source = { :git => "https://github.com/moderateepheezy/Layout.git", 
-  :tag => "#{s.version}" }
+  :tag => "#{spec.version}" }
 
   spec.source_files  = "Layout", "Layout/Sources/**/*{.swift,h,m}"
 
