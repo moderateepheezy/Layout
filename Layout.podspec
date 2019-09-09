@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Layout"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "A stackview and autolayout framework"
   spec.homepage     = "https://github.com/moderateepheezy/Layout"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -13,8 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "10.0"
 
-  spec.source = { :git => "https://github.com/moderateepheezy/Layout.git", 
-  :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/moderateepheezy/Layout.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Layout", "Layout/Sources/**/*{.swift,h,m}"
 
