@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Layout"
-  spec.version      = "0.2.0"
+  spec.version      = "0.3.0"
   spec.summary      = "A stackview and autolayout framework"
   spec.homepage     = "https://github.com/moderateepheezy/Layout"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = { "Afees Lawal" => "moderateepheezy@gmail.com" }
 
